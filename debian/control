@@ -1,0 +1,17 @@
+Source: ethminer-cuda
+Section: misc
+Priority: optional
+Maintainer: Baltnet Communications <info@baltnet.ee>
+Build-Depends: debhelper (>=10), cuda(>=9.1)
+Standards-Version: 3.9.6
+Homepage: https://github.com/ethereum-mining/ethminer
+Vcs-Git: git@github.com:baltnet-communications/ethminer-cuda.git
+Vcs-Browser: https://github.com/baltnet-communications/ethminer-cuda
+
+Package: ethminer-cuda
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: cryptominer-daemon
+Replaces: cryptominer-daemon
+Provides: cryptominer-daemon
+Description: Ethereum miner with CUDA support

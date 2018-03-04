@@ -1,0 +1,10 @@
+[Unit]
+Description=Ethereum miner with CUDA support
+After=network-online.target
+
+[Service]
+Environment='OPTS='
+ExecStart=/opt/ethminer-cuda/ethminer $OPTS
+
+[Install]
+WantedBy=multi-user.target

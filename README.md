@@ -14,7 +14,7 @@ This project packages famous [ethminer](https://github.com/ethereum-mining/ethmi
 Please visit http://pkg.baltnet.net for instructions how to configure Baltnet repository. To install the package, run following command:
 
 ```
-	$ sudo apt install ethminer-cuda
+$ sudo apt install ethminer-cuda
 ```
 
 # Configuration
